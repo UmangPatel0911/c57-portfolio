@@ -11,15 +11,17 @@ body{
     position: absolute;
     overflow: hidden;
     height: 100%;
+    height: 800px;
     width: 100%;
     color: green;
     left: 0;
-    top: 190;
+    top: 0;
     bottom: 0;
     right: 0;
     opacity: 0.83;
    background: linear-gradient(yellow 0%,green 100%);
     display: table;
+    z-index: 7px;
 }
 .welcomediv{
     display: table-cell;
@@ -67,4 +69,22 @@ p {
     margin: 25px auto;
     font-size: 17px;
     line-height: 1.3;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    
+}
+.link{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: 'Odibee Sans', cursive;
+    
 }
